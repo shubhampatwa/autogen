@@ -101,7 +101,7 @@ ragproxyagent = RetrieveUserProxyAgent(
         "chunk_token_size": 2000,
         "model": "gpt-35-turbo",
         "client": chromadb.PersistentClient(path="/tmp/chromadb"),
-        "collection_name": "natural-questions1",
+        "collection_name": "natural-questions2",
         "chunk_mode": "one_line",
         "embedding_model": "all-MiniLM-L6-v2",
     },
